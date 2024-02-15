@@ -4,6 +4,8 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
+    "resolveJsonModule": true, //consegue importar arquivos json
+    "allowSyntheticDefaultImports": true, //permite importar modulos default
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitOverride": true,
